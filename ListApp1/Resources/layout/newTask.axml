@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <EditText
+        android:id="@+id/editName"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+      <Spinner
+        android:id="@+id/editPriority"
+        android:hint="@string/priority"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+      <EditText
+        android:id="@+id/editDesc"
+        android:hint="@string/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+      <Button
+        android:id="@+id/saveButton"
+        android:hint="@string/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+      <Button
+        android:id="@+id/cancelButton"
+        android:hint="@string/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>
+              
+              
